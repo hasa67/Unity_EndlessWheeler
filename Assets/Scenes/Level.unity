@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.5748171, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -202,14 +202,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - name: Background
-    clip: {fileID: 8300000, guid: 80e329f761cb788479637b17c43483e1, type: 3}
+    clip: {fileID: 8300000, guid: 89c5e8e5ac634a34a864a51bcab9c07b, type: 3}
     loop: 1
     volume: 0.3
     source: {fileID: 0}
   - name: Coin
     clip: {fileID: 8300000, guid: dac1fad93cb67fa4a8fb8e10e0b4ad81, type: 3}
     loop: 0
-    volume: 0.5
+    volume: 0.2
     source: {fileID: 0}
   - name: GameOver
     clip: {fileID: 8300000, guid: 7d4a0e126cb2e544cbffe5f004163c70, type: 3}
@@ -529,7 +529,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 800, y: 480}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
